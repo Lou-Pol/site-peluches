@@ -43,8 +43,18 @@ nav {
     padding: 12px 25px;
     margin: 5px;
     cursor: pointer;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.btn2 {
+    border: none;
+    padding: 12px 25px;
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
     border-radius: 8px;
     transition: 0.3s;
 }
