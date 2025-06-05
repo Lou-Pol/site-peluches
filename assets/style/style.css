@@ -135,6 +135,7 @@ footer {
     padding: 15px;
     color: white;
     border-top: 1px solid #4f4035;
+    bottom: auto;
 }
 .cookie-banner {
   position: fixed;
