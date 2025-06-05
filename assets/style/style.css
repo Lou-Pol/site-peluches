@@ -1,0 +1,129 @@
+/* style.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #b1a593;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #6c594c, #9c8e79);
+    padding: 20px;
+    color: white;
+    border-bottom: 0.5px solid #4f4035;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header-content img {
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 40px 0 20px 25px;
+}
+
+nav {
+    margin: 20px 0;
+    background: #6c594c;
+    padding: 10px 0;
+}
+
+
+nav button {
+    background-color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    background-color: #6c594c;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li button {
+    background-color: #9c8e79;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav ul li button:hover {
+    background-color: #6c594c;
+}
+
+main {
+    padding: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.category {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    transition: transform 0.3s;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+.category h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #6c594c;
+    font-style: italic;
+    color: #4f4035;
+    padding-left: 5px;
+}
+
+.category ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    background: linear-gradient(to right, #6c594c, #9c8e79);
+    padding: 15px;
+    margin: 10px 20px;
+    color: white;
+    border-top: 1px solid #4f4035;
+}
